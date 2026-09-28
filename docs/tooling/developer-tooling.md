@@ -89,3 +89,18 @@
 **What it is:** An engine that implements the FHIR Connect specification for bidirectional mapping between openEHR compositions and HL7 FHIR resources. It translates data without storing the clinical data itself. The commercial Enterprise edition adds production capabilities including authentication, terminology integration, multitenancy, operational-template synchronization, and performance optimizations.
 
 **Who should use it:** Teams evaluating declarative, specification-based mappings between openEHR and FHIR systems. The project explicitly states that its open-source edition is not intended for production use because it lacks authentication, role-based access control, terminology integration, and other production capabilities; production users should assess the Enterprise edition or provide equivalent controls themselves.
+
+## openEHR RM Browser
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (Apache 2.0) open source |
+| Open source | Yes |
+| Platform | HTML5 / JavaScript / CSS (Browser-based, offline-capable) |
+| Owner and developer | [Martin A. Koch, PhD](https://github.com/martinkochdesign/) (CatSalut) |
+| Available from | [openEHR Browser Live](https://martinkochdesign.github.io/openEHR_RM_browser/) |
+| Source | [openEHR RM Browser GitHub](https://github.com/martinkochdesign/openEHR_RM_browser/) |
+ 
+**What it is:** A lightweight, zero-dependency, single-page web application for interactively browsing and inspecting the openEHR Reference Model (RM) class hierarchy. It provides a three-panel explorer featuring full-text search, type filtering, recursive attribute expansion, inheritance breadcrumbs, cardinality/obligarity badges (`1..1`, `0..1`), functions inspection, and dark/light mode—running entirely client-side without servers or build tools.
+
+**Who should use it:** Clinical knowledge modellers, health informaticians, and software developers working with openEHR archetypes, templates, or AQL queries who need a fast, intuitive, and offline-capable reference tool to navigate classes, attributes, and data types.
