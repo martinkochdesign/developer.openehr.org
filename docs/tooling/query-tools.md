@@ -49,6 +49,19 @@ The most common way to run AQL queries against EHRbase is directly through the R
 
 **What it is:** An adaptation of Better's open-source AQL Builder UI components, modified to work with EHRbase rather than Better Platform.
 
+## AQL Manager
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | Yes |
+| Owner and developer | [Martin A. Koch PhD]([https://www.crs4.it/](https://github.com/martinkochdesign/)) |
+| Available from | [https://martinkochdesign.github.io/openEHR_AQL_manager/](AQL manager live) |
+| Source | [AQL Manager GitHub](https://github.com/martinkochdesign/openEHR_AQL_manager/) |
+
+**What it is:** A webpage that helps to manage and format AQL queries.
+
 ## FerroEHR admin console
 
 | | |
