@@ -62,7 +62,7 @@ These tools create and edit archetypes from scratch or modify existing ones.
 
 | | |
 | --- | --- |
-| Status | Web-based companion tool |
+| Status | Active |
 | Cost | Free |
 | Open source | Yes |
 | Platform | Web-based |
@@ -75,6 +75,25 @@ These tools create and edit archetypes from scratch or modify existing ones.
 **What it does:** It focuses on mapping clinical data elements to archetypes. It helps modellers search and explore the archetype ecosystem before opening a full editor.
 
 **Who should use it:** Anyone at the "what archetypes do I need?" stage of a project.
+
+## Archetype Inclusion Patterns
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | Yes |
+| Platform | Web-based |
+| Author | [martinkochdesign](https://github.com/martinkochdesign) |
+| Available from | [Archetype Inclusion Pattern Live](https://martinkochdesign.github.io/openEHR_archetype_inclusion_patterns/) |
+| Source | [martinkochdesign/openEHR_archetype_inclusion_patterns](https://github.com/martinkochdesign/openEHR_archetype_inclusion_patterns/) |
+
+**What it is:** A lightweight tool for openEHR modellers. It is intended to show the usual template modelling patterns of published openEHR templates.
+
+**What it does:** It focuses on mapping the inclusion of archetypes in templates. It helps to understand common modelling patterns in openEHR.
+
+**Who should use it:** Anyone who wants to explore common modelling patterns of templates.
+
 
 ## LinkEHR Editor / LinkEHR Studio (Veratech)
 
