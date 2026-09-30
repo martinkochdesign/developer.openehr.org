@@ -45,3 +45,20 @@
 **What it is:** An engine that implements the FHIR Connect specification for bidirectional mapping between openEHR compositions and HL7 FHIR resources. It translates data without storing the clinical data itself. The commercial Enterprise edition adds production capabilities including authentication, terminology integration, multitenancy, operational-template synchronization, and performance optimizations.
 
 **Who should use it:** Teams evaluating declarative, specification-based mappings between openEHR and FHIR systems. The project explicitly states that its open-source edition is not intended for production use because it lacks authentication, role-based access control, terminology integration, and other production capabilities; production users should assess the Enterprise edition or provide equivalent controls themselves.
+
+## openEHR RM Browser
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | Source available |
+| Licence | Apache 2.0 stated in the application and README; no licence file in the repository |
+| Platform | Browser-based / offline-capable |
+| Owner and developer | [Martin A. Koch, PhD](https://github.com/martinkochdesign/) (CatSalut) |
+| Available from | [hosted application](https://martinkochdesign.github.io/openEHR_RM_browser/) |
+| Source | [github.com/martinkochdesign/openEHR_RM_browser](https://github.com/martinkochdesign/openEHR_RM_browser/) |
+
+**What it is:** A client-side browser for the openEHR Reference Model class hierarchy. It provides full-text search, type filtering, recursive attribute expansion, inheritance navigation, cardinality indicators, and function inspection without requiring a server or build tools.
+
+**Who should use it:** Modellers and developers who need a quick offline reference for RM classes, attributes, and data types. Its model data is a dated extraction from the specifications, so consult the current specifications when exact release alignment matters.
