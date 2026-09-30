@@ -16,50 +16,6 @@
 
 **Who should use it:** Developers who use VS Code and want to edit archetypes or write AQL queries without switching to a browser-based tool.
 
-## openEHR SDK
-
-| | |
-| --- | --- |
-| Status | Active |
-| Cost | Free (Apache 2.0) |
-| Open source | Yes |
-| Language | Java |
-| Owner and steward | [EHRbase project](https://www.ehrbase.org/) |
-| Available from | [GitHub releases](https://github.com/ehrbase/openEHR_SDK/releases) |
-| Source | [github.com/ehrbase/openEHR_SDK](https://github.com/ehrbase/openEHR_SDK) |
-
-**What it is:** A Java SDK for working with openEHR artefacts: parsing and serialising compositions, working with templates, and building AQL queries. EHRbase uses it internally.
-
-## Archie
-
-| | |
-| --- | --- |
-| Status | Active |
-| Cost | Free (Apache 2.0) |
-| Open source | Yes |
-| Language | Java |
-| Current owner | [openEHR](https://github.com/openEHR) |
-| Original author | [Nedap](https://www.nedap.com/) |
-| Available from | [github.com/openEHR/archie](https://github.com/openEHR/archie) |
-| Source | [github.com/openEHR/archie](https://github.com/openEHR/archie) |
-
-**What it is:** A Java library implementing the openEHR Reference Model and an ADL 2 parser. EHRbase uses it as its RM implementation.
-
-## ADL2 Core Libraries
-
-| | |
-| --- | --- |
-| Status | Source available; maintenance status unclear |
-| Cost | Free |
-| Open source | Yes |
-| Language | Java |
-| Current owner | [openEHR](https://github.com/openEHR) |
-| Original author | Marand, now [Better](https://www.better.care/about-us/) |
-| Available from | [github.com/openEHR/adl2-core](https://github.com/openEHR/adl2-core) |
-| Source | [github.com/openEHR/adl2-core](https://github.com/openEHR/adl2-core) |
-
-**What it is:** A Java-based reference implementation of the ADL 2.0 and AOM specifications, open-sourced by Marand.
-
 ## FHIR Bridge
 
 | | |
@@ -89,3 +45,20 @@
 **What it is:** An engine that implements the FHIR Connect specification for bidirectional mapping between openEHR compositions and HL7 FHIR resources. It translates data without storing the clinical data itself. The commercial Enterprise edition adds production capabilities including authentication, terminology integration, multitenancy, operational-template synchronization, and performance optimizations.
 
 **Who should use it:** Teams evaluating declarative, specification-based mappings between openEHR and FHIR systems. The project explicitly states that its open-source edition is not intended for production use because it lacks authentication, role-based access control, terminology integration, and other production capabilities; production users should assess the Enterprise edition or provide equivalent controls themselves.
+
+## openEHR RM Browser
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | Source available |
+| Licence | Apache 2.0 stated in the application and README; no licence file in the repository |
+| Platform | Browser-based / offline-capable |
+| Owner and developer | [Martin A. Koch, PhD](https://github.com/martinkochdesign/) (CatSalut) |
+| Available from | [hosted application](https://martinkochdesign.github.io/openEHR_RM_browser/) |
+| Source | [github.com/martinkochdesign/openEHR_RM_browser](https://github.com/martinkochdesign/openEHR_RM_browser/) |
+
+**What it is:** A client-side browser for the openEHR Reference Model class hierarchy. It provides full-text search, type filtering, recursive attribute expansion, inheritance navigation, cardinality indicators, and function inspection without requiring a server or build tools.
+
+**Who should use it:** Modellers and developers who need a quick offline reference for RM classes, attributes, and data types. Its model data is a dated extraction from the specifications, so consult the current specifications when exact release alignment matters.
