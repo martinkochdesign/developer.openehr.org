@@ -27,3 +27,4 @@
 | openEHR Explorer | Desktop client for browsing and querying CDRs | Free | Yes | Windows / Linux / macOS | Active |
 | ehr-ctrl | Desktop client for querying and administering CDRs | Free | No | Windows / Linux / macOS | Active |
 | AQL Manager | Organize and format AQL collections | Free | Yes | Web / offline | Active |
+| openEHR RM Browser | Browse the Reference Model hierarchy | Free | Source available | Web / offline | Active |
