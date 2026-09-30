@@ -19,9 +19,11 @@
 | FerroEHR | openEHR CDR / server | Free | Yes | Binary / Docker / Kubernetes | Active |
 | Archie (Java library) | RM/ADL Java implementation | Free | Yes | Java | Active |
 | openEHR SDK (Java) | SDK for EHRbase/openEHR | Free | Yes | Java | Active |
+| oehrpy (Python) | Python SDK for openEHR CDRs | Free | Yes | Python | Active - pre-1.0 |
 | ADL2 Core | ADL 2 Java reference implementation | Free | Yes | Java | Source available; maintenance unclear |
 | FHIR Bridge | FHIR-to-openEHR broker | Free | Yes | Java | Source available; release and support status unclear |
 | openFHIR | Bidirectional openEHR/FHIR mapping engine | Free / commercial | Yes (open-source edition) | Java / Docker | Active |
 | openEHRTool | EHRbase REST API client | Free | Yes | Web / Docker | Active |
 | openEHR Explorer | Desktop client for browsing and querying CDRs | Free | Yes | Windows / Linux / macOS | Active |
 | ehr-ctrl | Desktop client for querying and administering CDRs | Free | No | Windows / Linux / macOS | Active |
+| AQL Manager | Organize and format AQL collections | Free | Yes | Web / offline | Active |
