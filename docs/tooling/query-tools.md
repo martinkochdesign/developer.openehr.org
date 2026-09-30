@@ -54,13 +54,16 @@ The most common way to run AQL queries against EHRbase is directly through the R
 | | |
 | --- | --- |
 | Status | Active |
-| Cost | Free |
+| Cost | Free (Apache 2.0) |
 | Open source | Yes |
-| Owner and developer | [Martin A. Koch PhD]([https://www.crs4.it/](https://github.com/martinkochdesign/)) |
-| Available from | [https://martinkochdesign.github.io/openEHR_AQL_manager/](AQL manager live) |
-| Source | [AQL Manager GitHub](https://github.com/martinkochdesign/openEHR_AQL_manager/) |
+| Platform | Browser-based / offline-capable |
+| Owner and developer | [Martin A. Koch, PhD](https://github.com/martinkochdesign/) (CatSalut) |
+| Available from | [hosted application](https://martinkochdesign.github.io/openEHR_AQL_manager/) |
+| Source | [github.com/martinkochdesign/openEHR_AQL_manager](https://github.com/martinkochdesign/openEHR_AQL_manager/) |
 
-**What it is:** A webpage that helps to manage and format AQL queries.
+**What it is:** A client-side web application for organizing, editing, formatting, and searching collections of AQL queries. It stores working data in browser storage, imports and exports collections as JSON files, and can generate an EHRbase-compatible request payload.
+
+**Who should use it:** Developers and analysts maintaining reusable AQL collections who want formatting and organization without connecting the tool to a CDR. It does not execute queries or validate them against a server.
 
 ## FerroEHR admin console
 
